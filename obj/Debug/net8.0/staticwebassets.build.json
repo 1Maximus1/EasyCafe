@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "da/r5SgPPZEJyjWsA+tNQm9tTXWzWl4r85ktRcD2Nuw=",
+  "Source": "EasyCafe",
+  "BasePath": "_content/EasyCafe",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EasyCafe\\wwwroot",
+      "Source": "EasyCafe",
+      "ContentRoot": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\",
+      "BasePath": "_content/EasyCafe",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\сss\\normalize.css",
+      "SourceId": "EasyCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\",
+      "BasePath": "_content/EasyCafe",
+      "RelativePath": "сss/normalize.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\сss\\normalize.css"
+    },
+    {
+      "Identity": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\сss\\styleCafe.css",
+      "SourceId": "EasyCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\",
+      "BasePath": "_content/EasyCafe",
+      "RelativePath": "сss/styleCafe.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\сss\\styleCafe.css"
+    },
+    {
+      "Identity": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\index\\htmlpage.html",
+      "SourceId": "EasyCafe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\",
+      "BasePath": "_content/EasyCafe",
+      "RelativePath": "index/htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index\\htmlpage.html"
+    }
+  ]
+}

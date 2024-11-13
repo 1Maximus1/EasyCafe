@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <environment include="Development">
+        <link rel="stylesheet" href="../сss/styleCafe.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+    </environment>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="Logo">Easy Cafe</h1>
+        <h2>Menu</h2>
+        <form action="/user_menu" method="post" class="form">
+            <ul class="position">
+                <li>
+                    <label for="user_breakfast" class="label_food_position">Choose your breakfast:</label>
+                    <select name="user_breakfast" class="food_position">
+                        <option value="None">None</option>
+                        <optgroup label="Cold Breakfast">
+                            <option value="Yogurt with granola and fruit">Yogurt with granola and fruit</option>
+                            <option value="Chia pudding with coconut milk and berries">Chia pudding with coconut milk and berries</option>
+                            <option value="Smoothie bowls with fruits and nuts">Smoothie bowls with fruits and nuts</option>
+                            <option value="Cheese plate with nuts and honey">Cheese plate with nuts and honey</option>
+                        </optgroup>
+                        <optgroup label="Warm Breakfast">
+                            <option value="Omelette with cheese and vegetables">Omelette with cheese and vegetables</option>
+                            <option value="Oatmeal with fruit and honey">Oatmeal with fruit and honey</option>
+                            <option value="Eggs Benedict with salmon">Eggs Benedict with salmon</option>
+                            <option value="Pancakes with berries and sour cream">Pancakes with berries and sour cream</option>
+                        </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <label for="user_first_course" class="label_food_position">Choose your first course:</label>
+                    <select name="user_first_course" class="food_position">
+                        <option value="None">None</option>
+                        <option value="Borsch with sour cream">Borsch with sour cream</option>
+                        <option value="Chicken noodle soup">Сhicken noodle soup</option>
+                        <option value="Mushroom soup">Mushroom soup</option>
+                        <option value="Solyanka">Solyanka</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="user_second_course" class="label_food_position">Choose your second course:</label>
+                    <select name="user_second_course" class="food_position">
+                        <option value="None">None</option>
+                        <option value="Chicken Kyiv with mashed potatoes">Chicken Kyiv with mashed potatoes</option>
+                        <option value="Chicken chop with vegetable garnish">Chicken chop with vegetable garnish</option>
+                        <option value="Fried salmon with rice">Fried salmon with rice</option>
+                        <option value="Pasta carbonara">Pasta carbonara</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="user_drink" class="label_food_position">Choose your drink:</label>
+                    <select name="user_drink" id="drink" class="food_position">
+                        <option value="None">None</option>
+                        <optgroup label="Warm drinks">
+                            <option value="Coffee">Coffee</option>
+                            <option value="Coffee">Tea</option>
+                            <option value="Hot chocolate">Hot chocolate</option>
+                        </optgroup>
+                        <optgroup label="Cold drinks">
+                            <option value="Cola">Cola</option>
+                            <option value="Sprite">Sprite</option>
+                            <option value="Cold tea">Cold tea</option>
+                            <option value="Mineral water">Mineral water</option>
+                        </optgroup>
+                        <optgroup label="Juice">
+                            <option value="Orange juice">Orange juice</option>
+                            <option value="Apple juice">Apple juice</option>
+                            <option value="Tomato juice">Tomato juice</option>
+                        </optgroup>
+                    </select>
+                </li>
+            </ul>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+</body>
+</html>

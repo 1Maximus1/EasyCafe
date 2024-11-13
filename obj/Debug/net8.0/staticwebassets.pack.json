@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\index\\htmlpage.html",
+      "PackagePath": "staticwebassets\\index\\htmlpage.html"
+    },
+    {
+      "Id": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\сss\\normalize.css",
+      "PackagePath": "staticwebassets\\сss\\normalize.css"
+    },
+    {
+      "Id": "D:\\cSharpProject\\PRO\\homework\\hw3\\EasyCafe\\EasyCafe\\wwwroot\\сss\\styleCafe.css",
+      "PackagePath": "staticwebassets\\сss\\styleCafe.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EasyCafe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EasyCafe.props",
+      "PackagePath": "build\\EasyCafe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EasyCafe.props",
+      "PackagePath": "buildMultiTargeting\\EasyCafe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EasyCafe.props",
+      "PackagePath": "buildTransitive\\EasyCafe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
